@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "solc": "^0.8.25",
+    "truffle": "^5.11.5"
+  },
+  "name": "ticketing-system",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "deploy": "truffle deploy",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blankscreen-exe/Ticketing-System-Decentralized-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blankscreen-exe/Ticketing-System-Decentralized-App/issues"
+  },
+  "homepage": "https://github.com/Blankscreen-exe/Ticketing-System-Decentralized-App#readme",
+  "description": ""
+}
