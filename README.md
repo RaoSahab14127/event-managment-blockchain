@@ -23,31 +23,7 @@ This application hosts three different entities as far as payment is concerned:
 
 ### Deploy The Contract
 
-1. Install dependencies using `npm install` in the root directory.
-2. Compile the contract located in `contracts/EventManagement.sol` using `npm run compile`.
-3. Make sure that truffle configuration for deploying smart contract is correct inside `truffle-config.js`.
-```json
-    ...
-    networks: {
-        development: {
-            host: "127.0.0.1",     // Localhost (default: none)
-            port: 7545,            // Ethereum port (default: none)
-            network_id: "*",       // Any network (default: none)
-        }
-    }
-    ...
-```
-4. Make sure the solidity compiler version matches the `pragma` statement inside your `contracts/EventManagement.sol` in `truffle-config.js`.
-```json
-    ...
-    compilers: {
-        solc: {
-        version: "0.8.11",      // Fetch exact version from solc-bin (default: truffle's version)
-        ...
-    }
-    ...
-```
-5. Deploy the compiled contract using `npm run deploy`.
+you can deploy your contract on sepoilea testnet and edit env your contract address
 
 > **Alternate Deploy Method**
 >
